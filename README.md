@@ -1,0 +1,1 @@
+Głęboka kopia
