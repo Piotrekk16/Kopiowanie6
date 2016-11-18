@@ -13,7 +13,7 @@ namespace ConsoleApplication3
 
             Osoba o1 = new Osoba(30,"Olsztyn"); //tworzy pierwszy obiekt i nadajemy mu wiek 30
             Osoba o2 = new Osoba(); //tworzymy drugi obiekt
-            o2 = o1.GlebokaKopia(); //kopiowanie za pomocą metody Clone(), potem rzutujemy na klasę Osoba
+            o2 = o1.GlebokaKopia(); //kopiowanie z uzyżciem głębokiej kopii
 
             //wartości po kopiowaniu
             Console.WriteLine("Wiek pierwszej osoby {0}", o1.PobierzWiek());
